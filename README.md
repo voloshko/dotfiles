@@ -7,7 +7,7 @@ Personal configs managed with [GNU Stow](https://www.gnu.org/software/stow/). Bu
 ```sh
 git clone https://github.com/voloshko/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-stow helix tmux nvim ghostty hyprland
+stow helix tmux nvim ghostty hyprland scripts
 ```
 
 To stow individual packages: `stow helix`, `stow tmux`, etc.
@@ -29,6 +29,12 @@ Tmux config (`~/.tmux.conf`).
 
 - Vim-style pane navigation: `Ctrl-h/j/k/l`
 - Window switching: `Alt-h` (previous), `Alt-l` (next)
+
+### scripts
+
+Custom scripts (`~/.local/bin/`).
+
+- **dev** — starts a tmux session with a 3-pane dev layout: editor (top-left 75%), terminal (bottom-left 20%), agent (right 25% full height). Reattaches if session already exists. Run with `dev`
 
 ### nvim
 
