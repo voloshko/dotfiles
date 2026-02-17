@@ -1,4 +1,4 @@
 [[language]]
 name = "haskell"
 auto-format = true
-formatter = { command = "ormolu", args = ["--stdin-input-file", "."] }
+formatter = { command = "/home/mc/.local/bin/ormolu", args = ["--stdin-input-file", "."] }
